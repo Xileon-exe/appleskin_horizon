@@ -1,0 +1,270 @@
+﻿
+> .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1241:fn player_food(&self, p0: mod_api::PlayerRef) -> 
+Option<mod_api::PlayerFood> { let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_food#7dd7f21259765935", 
+686u32, w); let answer: Option<mod_api::PlayerFood> = r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1242:fn player_abilities(&self, p0: mod_api::PlayerRef) -> 
+Option<mod_api::PlayerAbilities> { let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = 
+host_import!("Backend::player_abilities#46d7d7144d669051", 687u32, w); let answer: Option<mod_api::PlayerAbilities> = r.take().expect("the host answered 
+with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1243:fn player_may_fly(&self, p0: mod_api::PlayerRef) -> Option<bool> { let mut 
+w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_may_fly#13b43b2b2a8685b9", 688u32, w); let answer: Option<bool> = 
+r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1244:fn player_within_entity_reach(&self, p0: mod_api::PlayerRef, p1: 
+mod_api::EntityRef, p2: mod_api::EntityReach) -> Option<bool> { let mut w = crate::wire::guest::begin();  w.put_owned(p0);w.put_owned(p1);w.put_owned(p2); 
+let r = host_import!("Backend::player_within_entity_reach#474388df0d553c19", 689u32, w); let answer: Option<bool> = r.take().expect("the host answered with 
+a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1245:fn player_stat(&self, p0: mod_api::PlayerRef, p1: mod_api::StatType, p2: 
+&str) -> Option<i32> { let mut w = crate::wire::guest::begin();  w.put_owned(p0);w.put_owned(p1);w.put(p2); let r = 
+host_import!("Backend::player_stat#47eb34f11d3c3b2b", 690u32, w); let answer: Option<i32> = r.take().expect("the host answered with a value of the wrong 
+type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1246:fn player_has_discovered_recipe(&self, p0: mod_api::PlayerRef, p1: &str) -> 
+Option<bool> { let mut w = crate::wire::guest::begin();  w.put_owned(p0);w.put(p1); let r = 
+host_import!("Backend::player_has_discovered_recipe#913a1ab1664d4be2", 691u32, w); let answer: Option<bool> = r.take().expect("the host answered with a 
+value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1247:fn player_discovered_recipes(&self, p0: mod_api::PlayerRef) -> 
+Option<Vec<String>> { let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_discovered_recipes#6f6ade33b5df6967", 
+692u32, w); let answer: Option<Vec<String>> = r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1248:fn player_client_brand(&self, p0: mod_api::PlayerRef) -> Option<String> { 
+let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_client_brand#0caed868eedc7157", 693u32, w); let answer: 
+Option<String> = r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1249:fn player_announced_channels(&self, p0: mod_api::PlayerRef) -> 
+Option<Vec<String>> { let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_announced_channels#6f6ade33b5df6967", 
+694u32, w); let answer: Option<Vec<String>> = r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1250:fn player_sees(&self, p0: mod_api::PlayerRef, p1: mod_api::PlayerRef) -> 
+Result<bool, mod_api::PlayerWorldRefusal> { let mut w = crate::wire::guest::begin();  w.put_owned(p0);w.put_owned(p1); let r = 
+host_import!("Backend::player_sees#a3c59d7532e28e00", 695u32, w); let answer: Result<bool, mod_api::PlayerWorldRefusal> = r.take().expect("the host answered 
+with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1251:fn player_latency(&self, p0: mod_api::PlayerRef) -> Option<i32> { let mut w 
+= crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_latency#6e91678cba8168f1", 696u32, w); let answer: Option<i32> = 
+r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1252:fn player_hidden(&self, p0: mod_api::PlayerRef) -> Option<Option<u8>> { let 
+mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_hidden#bcb1f1049cc5419f", 697u32, w); let answer: 
+Option<Option<u8>> = r.take().expect("the host answered with a value of the wrong type"); answer }
+  .horizon\sdk\api\crates\horizon-mod-api\generated\wire_guest_generated.rs:1253:fn player_nickname(&self, p0: mod_api::PlayerRef) -> Option<Option<String>> 
+{ let mut w = crate::wire::guest::begin();  w.put_owned(p0); let r = host_import!("Backend::player_nickname#7951f06f99819556", 698u32, w); let answer: 
+Option<Option<String>> = r.take().expect("the host answered with a value of the wrong type"); answer }
+> .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:31:    pub(crate) fn held_items(host: &FakeHost) -> u32 {
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:32:        let player = player_of(host);
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:33:        items(player.slots.values().chain(&player.given).cloned())
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:34:    }
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:35:
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:36:    #[cfg(test)]
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:37:    /// Puts `stack` in player 1's main hand.
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:38:    pub(crate) fn set_hand(host: &mut FakeHost, stack: ItemStack) {
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:39:        player_mut(host).slots.insert(5, stack);
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:40:    }
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:41:    #[cfg(test)]
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:42:    /// What player 1 of a [`player_world`] holds in their main hand.
+  .horizon\sdk\api\crates\horizon-mod-api\src\parts\items.rs:43:    pub(crate) fn main_hand(host: &FakeHost) -> Option<ItemStack> {
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2247:fn health_hud(&self, host: &mut dyn ClientHost, event: &mut 
+HealthHudEvent<'_>) -> Option < Vec < GuiDraw > > { let _ = host;let _ = event; None }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2248:/// A player right-clicks, in the level `dimension` (a `&str`), the entity 
+`entity` (`Entity.getId`) of type
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2249:/// `kind` (`minecraft:cow`) with `hand` (`Hand::Main` or `Hand::Off`), 
+holding `stack` (none in an
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2250:/// empty hand): where `Player.interactOn` starts, before the entity's own
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2251:/// `interact` and the item's `interactLivingEntity`. Both logical sides
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2252:/// answer independently, once per hand, main hand before off hand.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2253:/// A consuming client result ends the loop; only Success swings there.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2254:/// SuccessServer and Consume consume without a client swing. Fail,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2255:/// Pass and TryWithEmptyHand fall through on this entity path.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2256:/// A server-only answer leaves the client's off-hand prediction unchanged.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2257:/// ClientHost permits reads and local effects, not authoritative writes.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2258:/// Side: both.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:2259:///
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3240:fn gui_layer_post(&self, host: &dyn ClientHost, event: &mut 
+GuiLayerPostEvent<'_>) { let _ = host;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3241:/// Icons a mod puts on map `map` each time it is drawn: held, in an
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3242:/// item frame or on the cartography table's screen (a map's pixels are
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3243:/// its own; nothing is saved in the map). Push `MapDecoration`s
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3244:/// (an atlas sprite, a position in half map pixels, a rotation, and
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3245:/// whether it shows in a frame and on the screen like vanilla's markers
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3246:/// do); they are drawn after the vanilla ones with the same pose, and a
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3247:/// sprite the atlas lacks is left out. `map.center`, `map.scale` and
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3248:/// `map.dimension` say which blocks the map shows, and
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3249:/// `MapDecoration::x` has the formula. Vanilla's decorations are
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3250:/// not passed in. Asked every frame a map is drawn, so keep it cheap.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3251:/// The client half of `MapDecorationType` and `addDecoration`: a type
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:3252:/// registered on the server and saved in the map's data is not here.
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5543:fn debug_entry_lines(&self, host: &dyn ClientHost, event: &mut 
+DebugEntryLinesEvent<'_>) { let _ = host;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5544:/// Draw one active debug renderer (`register_debug_renderers`), asked for 
+each view of a world,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5545:/// after `submit_custom_geometry`. `id` is the renderer's id and every mod 
+is asked about every id,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5546:/// so a mod ignores ids it does not own. `draw` shares its limits with that 
+hook and clears every
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5547:/// view, so nothing outlives a frame. A renderer that is not active is 
+never asked, and neither is
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5548:/// one without a world to draw in. Client-side.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5549:/// Side: client.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5550:fn debug_renderer_draw(&self, host: &dyn ClientHost, event: &mut 
+DebugRendererDrawEvent<'_>) { let _ = host;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5551:/// Items' default components are bound and readable (NeoForge's
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5552:/// `DefaultDataComponentsBoundEvent`); `cause` says how, as 
+`tags_updated`'s does. The
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5553:/// place to build or rebuild caches derived from item defaults (stack 
+sizes, food,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5554:/// tool rules): from now on the default-component reads return the published
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:5555:/// defaults, `modify_default_components`' edits included.
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6227:fn item_tooltip(&self, host: &dyn ClientHost, event: &mut 
+ItemTooltipEvent<'_>) { let _ = host;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6228:/// `ItemTossEvent`: `player` tosses the item entity `item` (`Player.drop`: 
+the drop key, a menu's throw, what no longer fits in the inventory), not what scatters when they die. The entity is made, with its thrower, but has not 
+joined the level yet: its handle reads and changes the whole stack, the pickup delay and the target, and those changes stay. Set `canceled` and it never 
+joins the level; the items are already out of the inventory and are lost. A canceled toss awards no drop statistic, as vanilla awards one only when an item 
+entity came of it. Server-side. Diverges from upstream: replaces the listen-only `item_dropped`, which fired for the drop key and menu throws only.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6229:/// Side: server.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6230:///
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6231:/// Return `Flow::Cancel` to take it: this sets `canceled`, and later mods 
+are skipped unless they
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6232:/// listen with `#[listener(receive_cancelled)]`; those see 
+`event.cancelled` and may set it back to
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6233:/// `false`.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6234:fn item_toss(&self, host: &mut dyn ServerHost, event: &mut ItemTossEvent) -> 
+Flow { let _ = host;let _ = event; Flow::Continue }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6235:/// A physical key or mouse button bound to the gameplay mapping `mapping` 
+(`key.jump`,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6236:/// `key.attack`...) changes state while playing, before the game acts on 
+it. `pressed` is true
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6237:/// for a press (a key's repeat counts as one, as the game takes it) and 
+false for a release.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6238:/// Cancel a press to drop it for every mapping bound to its input: the game 
+holds nothing and
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:6239:/// acts on nothing. A release cannot be canceled, so what the game holds is 
+always let go.
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7090:fn register_debug_entries(&self, context: &RegistrationContext, event: &mut 
+RegisterDebugEntriesEvent<'_>) { let _ = context;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7091:/// The world-space debug renderers a mod has now (NeoForge's 
+`RegisterDebugRenderersEvent`): push a
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7092:/// `DebugRenderer` per renderer. Asked at each renderer list refresh, on 
+the client.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7093:/// Side: client.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7094:///
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7095:/// Every mod gets `event.renderers` in order and may add, change or remove 
+renderers.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7096:fn register_debug_renderers(&self, context: &RegistrationContext, event: 
+&mut RegisterDebugRenderersEvent<'_>) { let _ = context;let _ = event;  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7097:/// Register loading screens once at client startup (NeoForge's
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7098:/// `RegisterDimensionTransitionScreenEvent`). Conditional 
+source/destination pairs take
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7099:/// priority over incoming registrations, which take priority over outgoing 
+registrations.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7100:/// Duplicate transition registrations keep the first; invalid ids are 
+logged and skipped.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7101:/// An unmatched transition uses vanilla's screen and every screen uses the 
+existing tracker.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:7102:/// Side: client.
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10431:pub struct HealthHudEvent<'a> {
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10432:pub inputs: & 'a mod_api :: client :: hud_layout :: HealthInputs,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10433:pub wi: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10434:pub hi: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10435:}
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10436:#[doc(hidden)] pub fn dispatch_health_hud(host: &mut dyn ClientHost, 
+inputs: & mod_api :: client :: hud_layout :: HealthInputs, wi: i32, hi: i32, draws: & mut Option < Vec < GuiDraw > >) { if 
+!super::listened(HookId::HealthHud) { return; }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10437:if draws.is_some() { return; }  let mut event = HealthHudEvent { inputs, 
+wi, hi }; for mod_hook in super::entered(HookId::HealthHud, "health_hud") { if let Some(replacement) = mod_hook.health_hud(&mut *host, &mut event) { *draws 
+= Some(replacement);  break; }  }  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10438:/// What [`Hooks::entity_interact`] is told. Each field is that hook's 
+argument of the same name, described in the hook's doc.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10439:#[allow(missing_docs)]
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10440:// no wire: borrowed event crosses as call arguments.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10441:pub struct EntityInteractEvent<'a> {
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10442:pub dimension: & 'a str,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:10443:pub hand: Hand,
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11527:pub struct GuiLayerPostEvent<'a> {
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11528:pub layer: & 'a str,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11529:pub draw: & 'a mut dyn DrawContext,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11530:}
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11531:#[doc(hidden)] pub fn dispatch_gui_layer_post(host: &dyn ClientHost, layer: 
+& str, draw: & mut dyn DrawContext) { if !super::listened(HookId::GuiLayerPost) { return; }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11532: let mut event = GuiLayerPostEvent { layer, draw }; for mod_hook in 
+super::entered(HookId::GuiLayerPost, "gui_layer_post") { mod_hook.gui_layer_post(host, &mut event);  }  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11533:/// What [`Hooks::map_decorations`] is told. Each field is that hook's 
+argument of the same name, described in the hook's doc.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11534:#[allow(missing_docs)]
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11535:// no wire: borrowed event crosses as call arguments.
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11536:pub struct MapDecorationsEvent<'a> {
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11537:pub map: & 'a mod_api :: MapInfo < 'a >,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11538:pub decorations: & 'a mut Vec < mod_api :: MapDecoration >,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:11539:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16013:pub struct ItemTooltipEvent<'a> {
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16014:pub player: u128,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16015:pub player_entity_id: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16016:pub stack: & 'a ItemStack,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16017:pub display: & 'a TooltipDisplay < 'a >,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16018:pub advanced: bool,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16019:pub creative: bool,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16020:pub lines: & 'a mut Vec < (Text , u32) >,
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16021:}
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16022:#[doc(hidden)] pub fn dispatch_item_tooltip(host: &dyn ClientHost, call: 
+calls::ItemTooltipCall<'_>) { let calls::ItemTooltipCall { player, player_entity_id, stack, display, advanced, creative, lines } = call;
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16023:if !super::listened(HookId::ItemTooltip) { return; }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16024: let mut event = ItemTooltipEvent { player, player_entity_id, stack, 
+display, advanced, creative, lines }; for mod_hook in super::entered(HookId::ItemTooltip, "item_tooltip") { mod_hook.item_tooltip(host, &mut event);  }  }
+  .horizon\sdk\api\crates\horizon-mod-vocab\generated\mod_api_generated.rs:16025:/// What [`Hooks::item_toss`] is told. Each field is that hook's argument 
+of the same name, described in the hook's doc.
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1134:pub struct PlayerFood {
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1135:    /// The food level, 0 to 20.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1136:    pub level: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1137:    /// The saturation, up to the food level.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1138:    pub saturation: f32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1139:    /// The exhaustion; the game takes a saturation or food point at 4.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1140:    pub exhaustion: f32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1141:}
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1142:
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1143:/// A player's game profile (authlib's `GameProfile`): the UUID, the name and the signed
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1144:/// properties the server received at login, such as `textures` (the skin).
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1145:#[derive(Clone, Debug, PartialEq, Eq)]
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\entity\types.rs:1146:#[non_exhaustive]
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\debug_entry_lines.rs:14:    fn debug_entry_lines();
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\debug_entry_lines.rs:15:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\gui_layer_post.rs:14:    fn gui_layer_post();
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\gui_layer_post.rs:15:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\health_hud.rs:18:    fn health_hud();
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\health_hud.rs:19:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:20:    fn item_tooltip(
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:21:        player: u128,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:22:        player_entity_id: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:23:        stack: &ItemStack,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:24:        display: &TooltipDisplay<'_>,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:25:        advanced: bool,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:26:        creative: bool,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:27:        lines: &mut Vec<(Text, u32)>,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:28:    );
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\item_tooltip.rs:29:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\register_debug_entries.rs:36:    fn register_debug_entries();
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\hooks\register_debug_entries.rs:37:}
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:404:    fn player_food(&self, player: PlayerRef) -> Option<PlayerFood>;
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:405:    /// Side: both.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:406:    /// `Player.getAbilities`; Paper 
+`Player#getAllowFlight/isFlying/getFlySpeed/getWalkSpeed`.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:407:    #[access(WorldOnly)]
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:408:    fn player_abilities(&self, player: PlayerRef) -> Option<PlayerAbilities>;
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:409:    /// Side: both.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:410:    /// `IPlayerExtension.mayFly` (NeoForge): whether the player may start flying, by 
+game mode
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:411:    /// or ability. Read this rather than `player_abilities`' `may_fly`, which a 
+creative-flight
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:412:    /// attribute would not show; Horizon has no such attribute yet, so today the two 
+agree.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:413:    /// None for a stale or unavailable player.
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:414:    #[access(WorldOnly)]
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:415:    fn player_may_fly(&self, player: PlayerRef) -> Option<bool>;
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\host\players.rs:416:    /// Side: both.
+> .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:305:pub struct PlayerFood {
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:306:    pub level: i32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:307:    pub saturation: f32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:308:    pub exhaustion: f32,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:309:}
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:310:impl From<PlayerFood> for super::PlayerFood {
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:311:    fn from(v: PlayerFood) -> Self {
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:312:        let PlayerFood {
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:313:            level,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:314:            saturation,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:315:            exhaustion,
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:316:        } = v;
+  .horizon\sdk\api\crates\horizon-mod-vocab\src\built.rs:317:        Self {
+
+

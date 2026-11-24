@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "Ցույց տալ սննդի արժեքները հուշումում",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "If true, shows the hunger and saturation values of food in its tooltip while holding SHIFT",
+  "appleskin.setting.show_food_values_in_tooltip_always": "Միշտ ցույց տալ սննդի արժեքները հուշումում",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "If true, shows the hunger and saturation values of food in its tooltip automatically (without needing to hold SHIFT)",
+  "appleskin.setting.show_saturation_hud_overlay": "Ցույց տալ հագեցվախության ծածկույթը",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "If true, shows your current saturation level overlayed on the hunger bar",
+  "appleskin.setting.show_food_values_hud_overlay": "Ցույց տալ պահված սննդից վերականգնված քաղցը",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "If true, shows the hunger (and saturation if showSaturationHudOverlay is true) that would be restored by food you are currently holding",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "Ցույց տալ սննդի ծածկույթը ձեռքից դուրս",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "If true, enables the hunger/saturation/health overlays for food in your off-hand",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "Ցույց տալ սովի գիծը",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "If true, shows your food exhaustion as a progress bar behind the hunger bar",
+  "appleskin.setting.show_food_health_hud_overlay": "Ցույց տալ գնահատված առողջության ծածկույթը",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "If true, shows estimated health restored by food on the health bar",
+  "appleskin.setting.show_vanilla_animations_overlay": "Անիմացրեք HUD պատկերակները՝ Minecraft-ին համապատասխանելու համար",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "If true, health/hunger overlay will shake to match Minecraft's icon animations",
+  "appleskin.setting.show_food_debug_info": "Ցուցադրել սննդի արժեքները վրիպազերծման էկրանում",
+  "appleskin.setting.show_food_debug_info.tooltip": "If true, shows your hunger, saturation, and exhaustion level in Debug Screen",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "Մաքսկիմալ անթափանցիկություն ծածկույթի թարթման ժամանակ",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "Alpha value of the flashing icons at their most visible point (1.0 = fully opaque, 0.0 = fully transparent)"
+}

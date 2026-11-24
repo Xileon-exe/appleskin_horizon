@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "Montrer la nourriture dans les info-bulles",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "Affiche la faim et la saturation d'un aliment dans son infobulle tant que MAJ est maintenue",
+  "appleskin.setting.show_food_values_in_tooltip_always": "Toujours montrer la nourriture dans les info-bulles",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "Affiche la faim et la saturation d'un aliment dans son infobulle automatiquement (sans maintenir MAJ)",
+  "appleskin.setting.show_saturation_hud_overlay": "Montrer la saturation",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "Affiche votre saturation actuelle par-dessus la barre de faim",
+  "appleskin.setting.show_food_values_hud_overlay": "Montrer la faim restaurée par la nourriture tenue en main",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "Affiche la faim (et la saturation si l'affichage de la saturation est activé) que rendrait l'aliment que vous tenez",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "Montrer la faim restaurée par la nourriture tenue dans la main secondaire",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "Active les aperçus de faim, saturation et vie pour la nourriture tenue dans la main secondaire",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "Montrer l'épuisement",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "Affiche votre épuisement sous forme de barre de progression derrière la barre de faim",
+  "appleskin.setting.show_food_health_hud_overlay": "Montrer l'estimation de vie restaurée",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "Affiche sur la barre de vie la vie que rendrait l'aliment tenu",
+  "appleskin.setting.show_vanilla_animations_overlay": "Animer les icônes sur l'ATH",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "Les aperçus de vie et de faim tremblent comme les icônes de Minecraft",
+  "appleskin.setting.show_food_debug_info": "Montrer la nourriture sur l'écran de déboguage",
+  "appleskin.setting.show_food_debug_info.tooltip": "Affiche votre faim, saturation et épuisement dans l'écran de débogage",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "Opacité des icônes clignotantes de l'ATH",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "Opacité des icônes clignotantes à leur point le plus visible (1.0 = opaque, 0.0 = transparent)"
+}

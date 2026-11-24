@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "Mostrar valores de comida na dica de ferramenta",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "Quando ativado, exibe quanto de fome e saturação a comida dá na dica de ferramenta, mas só se você segurar SHIFT.",
+  "appleskin.setting.show_food_values_in_tooltip_always": "Sempre mostrar valores de comida na dica de ferramenta",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "Se ligado, mostra automaticamente quanto de fome e saturação a comida dá na dica de ferramenta, sem precisar segurar SHIFT.",
+  "appleskin.setting.show_saturation_hud_overlay": "Mostrar sobreposição de saturação",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "Quando ativado, mostra na barra de fome o seu nível atual de saturação.",
+  "appleskin.setting.show_food_values_hud_overlay": "Mostrar fome restaurada pela comida segurada",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "Quando ativado, mostra na tela quanto de fome (e saturação, se a opção de saturação estiver ligada) a comida que você está segurando vai restaurar.",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "Mostrar sobreposições para comida na mão secundária",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "Se ligado, ativa as sobreposições de fome, saturação e vida para a comida que estiver na sua mão secundária.",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "Mostrar subcamada de exaustão",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "Se ligado, exibe uma barra de progresso atrás da barra de fome indicando o nível de exaustão da sua comida.",
+  "appleskin.setting.show_food_health_hud_overlay": "Mostrar sobreposição de vida estimada",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "Quando ativado, mostra na barra de vida uma estimativa de quanta vida a comida vai recuperar.",
+  "appleskin.setting.show_vanilla_animations_overlay": "Animar ícones do HUD como no Minecraft",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "Quando ativado, faz as sobreposições de vida e fome tremerem igual às animações dos ícones padrões do Minecraft.",
+  "appleskin.setting.show_food_debug_info": "Mostrar valores de comida na tela de depuração",
+  "appleskin.setting.show_food_debug_info.tooltip": "Se ligado, adiciona seus níveis de fome, saturação e exaustão na tela de depuração (F3).",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "Alfa máximo dos ícones do HUD piscantes",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "Define o quão visíveis os ícones piscantes ficam no pico (1.0 é totalmente visível, 0.0 é completamente transparente)."
+}

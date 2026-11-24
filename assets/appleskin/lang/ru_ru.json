@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "Характеристики еды в подсказке к ней",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "If true, shows the hunger and saturation values of food in its tooltip while holding SHIFT",
+  "appleskin.setting.show_food_values_in_tooltip_always": "Отображать характеристики постоянно",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "If true, shows the hunger and saturation values of food in its tooltip automatically (without needing to hold SHIFT)",
+  "appleskin.setting.show_saturation_hud_overlay": "Отображение и оценка насыщения",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "If true, shows your current saturation level overlayed on the hunger bar",
+  "appleskin.setting.show_food_values_hud_overlay": "Оценка утоления голода едой",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "If true, shows the hunger (and saturation if showSaturationHudOverlay is true) that would be restored by food you are currently holding",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "Учитывать предметы во второй руке",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "If true, enables the hunger/saturation/health overlays for food in your off-hand",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "Полоса истощения на фоне",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "If true, shows your food exhaustion as a progress bar behind the hunger bar",
+  "appleskin.setting.show_food_health_hud_overlay": "Оценка восстановления здоровья",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "If true, shows estimated health restored by food on the health bar",
+  "appleskin.setting.show_vanilla_animations_overlay": "Анимация показателей подобно Minecraft",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "If true, health/hunger overlay will shake to match Minecraft's icon animations",
+  "appleskin.setting.show_food_debug_info": "Показатели еды на экране отладки",
+  "appleskin.setting.show_food_debug_info.tooltip": "If true, shows your hunger, saturation, and exhaustion level in Debug Screen",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "Максимальная видимость показателей",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "Alpha value of the flashing icons at their most visible point (1.0 = fully opaque, 0.0 = fully transparent)"
+}

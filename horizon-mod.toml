@@ -1,0 +1,17 @@
+id = "appleskin"
+name = "AppleSkin"
+version = "0.1.0"
+description = "AppleSkin for Horizon: saturation, exhaustion, held-food preview, estimated health and food values in tooltips."
+authors = ["Xileon-exe"]
+license = "Unlicense"
+license_url = "https://unlicense.org/"
+credits = "Port of AppleSkin by squeek502 (https://github.com/squeek502/AppleSkin)"
+homepage = "https://github.com/Xileon-exe/appleskin_horizon"
+issues = "https://github.com/Xileon-exe/appleskin_horizon/issues"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[wasm]
+sha512 = "3650003fa66490b1a439cf468fde2d1cb6bd005053e18bffd708bd45156f8112934dbb60c72bfbdae37bc51d22acea117b92f2a6ee77c71a7c555b8afd56c9c3"
+toolchain = "1.99.1 58cf8f9c35b355199727627d07ae34a4e2846d67"

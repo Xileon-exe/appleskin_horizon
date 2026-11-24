@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "显示食物的饥饿值和饱和度",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "若启用，按下SHIFT后在信息提示内显示食物的饥饿值和饱和度",
+  "appleskin.setting.show_food_values_in_tooltip_always": "始终显示食物的饥饿值和饱和度",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "若启用，自动在信息提示内显示食物的饥饿值和饱和度 (不需要按住SHIFT)",
+  "appleskin.setting.show_saturation_hud_overlay": "显示饱和度",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "若启用，在饥饿条上显示饱和度",
+  "appleskin.setting.show_food_values_hud_overlay": "显示食用后预计恢复的饥饿值",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "若启用，显示正在拿取的食物预计恢复的饥饿值 (在开启“显示饱和度”后将同时显示饱和度)",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "显示副手食物信息",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "若启用，显示副手正在拿取的食物预计恢复的饥饿值/饱和度/生命值",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "显示消耗度",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "若启用，在饥饿条后显示消耗度",
+  "appleskin.setting.show_food_health_hud_overlay": "显示食用后预计恢复的生命值",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "若启用，显示食物食用后预计恢复的生命值",
+  "appleskin.setting.show_vanilla_animations_overlay": "启用匹配原版HUD图标的动画",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "若开启，生命条/饥饿条将抖动以与Minecraft图标动画匹配",
+  "appleskin.setting.show_food_debug_info": "在调试屏幕中显示饥饿信息",
+  "appleskin.setting.show_food_debug_info.tooltip": "若开启，在调试屏幕中显示你的饥饿值、饱和度和消耗度",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "设置HUD闪烁图标的透明度",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "HUD闪烁图标最可见点的透明度 (1.0=不透明 0.0=完全透明)"
+}

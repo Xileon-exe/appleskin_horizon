@@ -1,0 +1,22 @@
+{
+  "appleskin.setting.show_food_values_in_tooltip": "Zeige Sättigungswerte im Tooltip an",
+  "appleskin.setting.show_food_values_in_tooltip.tooltip": "Wenn aktiviert, zeigt die Hunger- und Sättigungswerte von Nahrung im Tooltip an, während die SHIFT-Taste gedrückt gehalten wird.",
+  "appleskin.setting.show_food_values_in_tooltip_always": "Zeige Sättigungswerte immer im Tooltip an",
+  "appleskin.setting.show_food_values_in_tooltip_always.tooltip": "Wenn aktiviert, werden die Hunger- und Sättigungswerte von Nahrung im Tooltip automatisch angezeigt (ohne die SHIFT-Taste gedrückt halten zu müssen)",
+  "appleskin.setting.show_saturation_hud_overlay": "Zeige Sättigungs-Overlay",
+  "appleskin.setting.show_saturation_hud_overlay.tooltip": "Wenn aktiviert, wird dein aktueller Sättigungswert als Overlay auf der Hungerleiste angezeigt.",
+  "appleskin.setting.show_food_values_hud_overlay": "Zeige Hungerregeneration durch in der hand gehaltenes Essen",
+  "appleskin.setting.show_food_values_hud_overlay.tooltip": "Wenn aktiviert, werden der Hunger (und die Sättigung, falls 'Sättigungsanzeige anzeigen' aktiviert ist) angezeigt, die durch das aktuell gehaltene Essen wiederhergestellt würden",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand": "Zeige Overlays für in Offhand gehaltenes Essen",
+  "appleskin.setting.show_food_values_hud_overlay_when_offhand.tooltip": "Wenn aktiviert, werden die Hunger-, Sättigungs- und Gesundheits-Overlays für das Essen in der Off-Hand angezeigt.",
+  "appleskin.setting.show_food_exhaustion_hud_underlay": "Zeige Erschöpfungs-Unterlage",
+  "appleskin.setting.show_food_exhaustion_hud_underlay.tooltip": "Wenn aktiviert, wird deine Nahrungserschöpfung als Fortschrittsbalken hinter der Hungerleiste angezeigt.",
+  "appleskin.setting.show_food_health_hud_overlay": "Zeige geschätzte Gesundheits regeneration im Overlay",
+  "appleskin.setting.show_food_health_hud_overlay.tooltip": "Wenn aktiviert, wird die geschätzte Gesundheitsregeneration durch Essen in der Gesundheitsleiste angezeigt.",
+  "appleskin.setting.show_vanilla_animations_overlay": "Animiere HUD Icons passend zu Minecraft",
+  "appleskin.setting.show_vanilla_animations_overlay.tooltip": "Wenn aktiviert, wird das Gesundheits- und Hunger-Overlay wackeln, um den Icon-Animationen von Minecraft zu entsprechen.",
+  "appleskin.setting.show_food_debug_info": "Zeige Essens-werte im Debug Bildschirm",
+  "appleskin.setting.show_food_debug_info.tooltip": "Wenn aktiviert, werden deine Hunger-, Sättigungs- und Erschöpfungswerte im Debug-Bildschirm angezeigt.",
+  "appleskin.setting.max_hud_overlay_flash_alpha": "Max Alpha von aufleuchtenden HUD icons",
+  "appleskin.setting.max_hud_overlay_flash_alpha.tooltip": "Alpha-Wert der blinkenden Icons an ihrem sichtbarsten Punkt (1.0 = vollständig opak, 0.0 = vollständig transparent)."
+}
