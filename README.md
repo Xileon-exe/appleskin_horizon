@@ -7,3 +7,4 @@ See `NOTICE.md` for credits. Build: `cargo horizon-mod build --wasm`, then `carg
 Install the file `target/horizon-mod/appleskin.hmod` from the launcher's Mods page.
 
 Licence: The Unlicense (see `LICENSE`).
+"# appleskin_horizon" 
